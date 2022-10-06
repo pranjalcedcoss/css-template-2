@@ -22,7 +22,7 @@ li {
   margin-top: 10px;
 }
 .title-commerce p {
-  width: 15%;
+  width: 16%;
   padding: 15px;
 }
 .title-commerce button {
@@ -69,7 +69,7 @@ h1 {
     padding-top: 10px;padding-bottom: 10px;
 
 padding-right: 200px;}
-.three {width: 200px; margin: 10px;background-color: rgb(34, 173, 207);}
+.three {width: 200px; margin-left: 100px;background-color: rgb(34, 173, 207);}
 .last{display: flex;}
 .four{width: 80%;padding-left: 15px; padding-top: 10px;}
 .five {padding-top:10px;}
