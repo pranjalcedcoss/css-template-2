@@ -1,75 +1,123 @@
-.title-container {
-  padding: 15px;
-  display: flex;
+body{
+  margin: 0px;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+h2{
+  margin: 0px,0px,20px,0px;
 }
-
-li {
-  display: inline;
-  float: right;
-  padding: 15px;
+.headcontainer{
+  margin:0px;
+  display:block;
 }
-
-.navbar {
-  width: 80%;
+.headmenu{
+  display:block;
+  overflow: hidden;
+ 
+  text-align: right;
+  padding: 40px,40px,20px,0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.title-commerce h2 {
+.menulinks{
+  text-decoration: none;
   padding: 20px;
-  margin-top: 10px;
 }
-.title-commerce p {
-  width: 16%;
-  padding: 15px;
+.sitelogo{
+  display: block;
+  overflow: hidden;
+  padding: 0px,0px,20px,60px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.title-commerce button {
-  padding: 15px;
-  width: 200px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-}
-.title-commerce {
-  background-color: lightgray;
-  margin-top: 15px;
-}
+.areadiv{
+  position: relative;
+  margin: 0px,50px,0px,50px;
+  background-color: lightgrey;
+  padding: 20px;
 
-.color {
-  display: flex;
-  text-align: center;
-  align-content: space-between;
-  align-items: center;
-  height: 500px;
-  margin-top: 30px;
 }
+.bannertoptext{
+  width:20%;
+  word-wrap: break-word;
+}
+.bannertopbtn{
+  margin-top: 5px;
+  padding: 5px;
+  border:1px solid #85523e8c;
+   border-radius:4px ;
+   background: color #f0f0f0; ;
+   width: 10%;
+   text-align: center;
+   box-shadow: 1px,1px,8px,black;
 
-.color {
-  width: 100%;
-  height: 90%;
-}
-.color > div {
-  /* margin: auto; */
-  text-align: center;
-  margin: auto;
-  padding-bottom: 15px;
-}
-.grey {
-  height: 150px;
-  width: 250px;
-  background-color: lightgray;
-}
-h1 {
-    /* float:left; */
-    padding-right: 20px;
-}
-.one{color: black;}
-.part{display: flex;background-color: lightgrey;margin: auto;align-items: center;text-align: center;padding-left: 50px;
-    padding-top: 10px;padding-bottom: 10px;
+  }
+  .gridcontainer{
 
-padding-right: 200px;}
-.three {width: 200px; margin-left: 100px;background-color: rgb(34, 173, 207);}
-.last{display: flex;}
-.four{width: 80%;padding-left: 15px; padding-top: 10px;}
-.five {padding-top:10px;}
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+
+  }
+  .blockcontainer{
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+  }
+  .square{
+    background-color: lightgrey;
+    height: 150px;
+    width: 300px;
+    padding: auto;
+    margin: auto;
+  }
+  .textsection{
+    text-align: center;
+  }
+  .textsection p{
+   margin: 0px;
+  }
+  .textsection a{
+    margin-top: 20px;
+
+  }
+  .suscribe{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: lightgrey;
+    margin: 0px,50px,0px,50px;
+    height: 85px;
+    border-radius: 4px;
+
+  }
+  .insub{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  h2{
+    margin: 0px;
+
+  }
+  input{
+    vertical-align: middle;
+    margin: 5px,10px,5px,0px;
+    padding: 10px;
+    background-color:#fff;
+    border: 1px solid #ddd;
+  }
+  .submit{
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
+  .footer{
+    margin:0px 50px 0px 50px;
+
+  }
+  .left{
+    float:left;
+    margin: 0px,0px,30px,0px;
+  }
+  .right{
+    float:right;
+    margin: 0px,0px,30px,0px;
+  }
